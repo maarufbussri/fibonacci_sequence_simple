@@ -8,10 +8,7 @@ int main()
 
 	do
 	{
-		k = i + j;
-		i = j;
-		j = k;
-		l = l++;
+		k = i + j; i = j; j = k; l = l++;
 		printf("%d ", k);
 	}
 	while (l < 10);
